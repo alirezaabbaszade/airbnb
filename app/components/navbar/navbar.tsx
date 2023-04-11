@@ -1,4 +1,5 @@
 import Container from '@/app/components/container';
+import Logo from '@/app/components/navbar/Logo';
 
 const Navbar = () => {
   return (
@@ -12,7 +13,9 @@ const Navbar = () => {
           justify-between
           gap-3
           md:gap-0
-          "></div>
+          ">
+            <Logo/>
+          </div>
         </Container>
       </div>
     </div>
