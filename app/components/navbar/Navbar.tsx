@@ -1,6 +1,7 @@
 import Container from '@/app/components/container';
 import Logo from '@/app/components/navbar/Logo';
 import Search from '@/app/components/navbar/Search';
+import UserMenu from '@/app/components/navbar/UserMenu';
 
 const Navbar = () => {
   return (
@@ -22,6 +23,7 @@ const Navbar = () => {
           >
             <Logo />
             <Search />
+            <UserMenu/>
           </div>
         </Container>
       </div>
